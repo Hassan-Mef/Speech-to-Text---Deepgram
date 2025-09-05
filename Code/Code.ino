@@ -48,10 +48,15 @@ L/R                  3.3V
                     // .. ensure you have actual version (July 18, 2024 or newer needed for 8bit wav files!)
 #define AUDIO_FILE        "/Audio.wav"    // mandatory, filename for the AUDIO recording
 
+
+// for CREDENTIALS
+
+#include "config.h"
+
 // --- PRIVATE credentials -----
 
-const char* ssid = "SSID";         // ## INSERT your wlan ssid
-const char* password = "PASS";  // ## INSERT your password
+const char* ssid = "Faculty-ITU";         // ## INSERT your wlan ssid
+const char* password = "faculty@itu1234*";  // ## INSERT your password
 
  // mandatory, filename for the AUDIO recording
 

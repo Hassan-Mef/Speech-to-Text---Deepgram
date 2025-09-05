@@ -22,6 +22,8 @@
 #include <WiFiClientSecure.h>   // only here needed
 /* #include <SD.h>              // library also needed, but already included in main.ino: */
 
+#include "config.h"
+
 
 // --- defines & macros --------
 
@@ -34,7 +36,7 @@
 
 // --- PRIVATE credentials & user favorites -----  
 
-const char* deepgramApiKey =    "DEEPGRAM+API+KEY";   // ## INSERT your Deepgram credentials !
+const char* deepgramApiKey =   DEEPGRAM_API_KEY;   // ## INSERT your Deepgram credentials !
 
 #define STT_LANGUAGE      "en-IN"  // forcing single language: e.g. "de" (German), reason: improving recognition quality
                                 // keep EMPTY ("") if you want Deepgram to detect & understand 'your' language automatically, 

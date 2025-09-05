@@ -32,9 +32,9 @@
 
 // --- PIN assignments ---------
 
-#define I2S_WS      22          // add-on: L/R pin INMP441 on Vcc is RIGHT channel, connected to GND is LEFT channel
-#define I2S_SD      35          
-#define I2S_SCK     33     
+#define I2S_WS      25          // add-on: L/R pin INMP441 on Vcc is RIGHT channel, connected to GND is LEFT channel
+#define I2S_SD      33          
+#define I2S_SCK     32     
 
 
 // --- define your settings ----
